@@ -54,7 +54,7 @@ jobs:
         host: ${{ secrets.DEPLOY_HOST }}
         username: ${{ secrets.DEPLOY_USER }}
         key: ${{ secrets.DEPLOY_SSH_KEY }}
-        source: "docker-compose.yml,.env.production,config/**"
+        source: "docker-compose.yml,.env.production,.deploy.sh,config/**"
         target: "/home/${{ secrets.DEPLOY_USER }}/server_node_project"
         strip_components: 0
 
