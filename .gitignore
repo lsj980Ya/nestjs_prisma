@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+# package-lock.json
+yarn.lock
+npm-debug.log*
+mysql-data
+logs
+uploads
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+# .env
+# .env.*
+# !.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Prisma
+*.db
+*.db-journal
+
+mysql/data
+redis/data

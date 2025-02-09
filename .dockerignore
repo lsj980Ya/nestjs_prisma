@@ -1,0 +1,54 @@
+# Dependencies
+node_modules
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# Build outputs
+dist
+build
+
+# Version control
+.git
+.gitignore
+
+# Environment and config
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Documentation
+*.md
+DOCS.md
+README.md
+
+# Logs and debug files
+logs
+*.log
+
+# Docker files
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test files
+test/
+**/*.spec.ts
+**/*.test.ts
+
+# Other
+.DS_Store
+tmp/
+temp/
+.cache
+
+mysql/data
+redis/data
